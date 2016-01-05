@@ -1,0 +1,11 @@
+{
+	"environment": "development",
+	"url": "www.casestudy1.local",
+	"dbhost": "localhost",
+	"dbname": "wordpress",
+	"dbuser": "wordpress",
+	"dbpass": "wordpress",
+	"wpuser": "admin",
+	"wppass": "admin",
+	"wppath": "/vagrant/www/wordpress-default"
+}
