@@ -5,4 +5,4 @@ www/
 vendor/
 wp-cli.yml
 composer.lock
-
+*~
