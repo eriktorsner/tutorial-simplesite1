@@ -7,3 +7,10 @@ function theme_enqueue_styles()
     wp_enqueue_style('parent-style', get_template_directory_uri().'/style.css');
     wp_enqueue_style('child-style', get_stylesheet_directory_uri().'/style.css', array('parent-style'));
 }
+
+add_filter( 'the_title', 'vantage_child_the_title',10, 2);
+
+function vantage_child_the_title($title, $id = null)
+{
+    return $title . " [I'm added via code]<br>";
+}
